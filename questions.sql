@@ -10,3 +10,9 @@
 --JOIN all persons to their address
 
 --SELECT all addresses with the count of people
+
+--DELETE both tables, recreate them but where a person can have multiple addresses
+
+--INSERT new records
+
+--SELECT all people and their count of addresses

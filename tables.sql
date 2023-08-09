@@ -38,3 +38,9 @@ FROM Address A WITH(NOLOCK)
 LEFT JOIN Persons P WITH(NOLOCK)
 ON A.AddressID = P.AddressID
 GROUP BY A.AddressID, A.streetNumber, A.streetName
+
+--DELETE both tables, recreate them but where a person can have multiple addresses
+
+--INSERT new records
+
+--SELECT all people and their count of addresses
